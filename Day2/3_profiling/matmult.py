@@ -9,7 +9,7 @@ import random
 #atexit.register(profile.print_stats)
 
 
-N = 200
+N = 250
 
 
 # NxN matrix

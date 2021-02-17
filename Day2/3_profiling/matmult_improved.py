@@ -49,7 +49,7 @@ def default_version(N):
     #    print(r)
 
 
-N = 200
+N = 250
 default_version(N)
 np_version(N)
 
