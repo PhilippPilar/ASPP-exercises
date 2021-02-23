@@ -1,0 +1,13 @@
+rbf - execution time:
+
+python: 5.86 s
+scipy: 0.11 s
+
+
+profiling:
+
+rbf_network spends 55.5% of its time in line 17, r += ..., inside triple loop. Vectorizing the code and getting rid of at least 1-2 loops would certainly improve the performance.
+
+Cython implementation - execution time:
+
+cython: 0.36 s
